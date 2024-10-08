@@ -9,6 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        BNI_Torquise: "#71DBD3",
+        BNI_LTorquise: "#D9F4F1",
+        BNI_LimeGreen: "#DEEF5A",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
