@@ -9,12 +9,12 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
     return (
-        <view
+        <a
             onClick={onClick}
             className="py-2 px-2 cursor-pointer text-gray-700 font-bold bg-BNI_Torquise hover:bg-BNI_LTorquise hover:text-black rounded-md"
         >
         {label}
-        </view>
+        </a>
     );
 };
 
